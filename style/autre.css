@@ -1,0 +1,20 @@
+.auCentre{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+}
+.fond1{
+	background-color: blue;
+	background-image: url('../images/fond_jeu3.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.tableauAffichage {
+	margin-top: 20px;
+}

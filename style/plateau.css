@@ -1,0 +1,127 @@
+body {
+	background-image: url('../images/fond_jeu5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.case_pion {
+	height:120px;
+	width: 120px;
+}
+.resteenbas{
+	width: 612px;
+	margin: auto;
+	margin-top : 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	/*background-color: blue;*/
+	background-image: url("../images/fond_valide.png");
+	border : 4px outset white;
+	border-radius: 15px;
+	color : white;
+}
+.case {
+	width: 120.4px;
+	height: 120px;
+}
+.first_case {
+	width: 10px;
+	height: 115px;
+}
+.haut {
+	width: 612px;
+	height: 180px;
+	background-image: url(../images/haut.jpg);
+	/*border: 1px solid black;*/
+	padding: 0px;
+	margin: auto;
+}
+.bas{
+	width: 612px;
+	height: 180px;
+	background-image: url(../images/bas.jpg);
+	/*border: 1px solid black;*/
+	padding: 0px;
+	margin: auto;
+}
+.ligne_plat{
+	display: inline-block;
+}
+.plateau{
+	width: 612px;
+	height: 610px;
+	padding: 0px;
+	margin: auto;
+}
+.bordure{
+	border:3px dashed red;
+}
+.depart{
+	border:3px dashed blue;
+}
+.arrive{
+	border:3px dashed yellow;
+}
+.rota_bas{
+	transform: rotate(180deg);
+}
+.rota_haut{
+	transform: rotate(0deg);
+}
+.rota_droite{
+	transform: rotate(90deg);
+}
+.rota_gauche{
+	transform: rotate(270deg);
+}
+.e1{
+	background-image: url("../images/pions/e1.png");
+	background-size: 100%;
+}
+.e2{
+	background-image: url("../images/pions/e2.png");
+	background-size: 100%;
+}
+.e3{
+	background-image: url("../images/pions/e3.png");
+	background-size: 100%;
+}
+.e4{
+	background-image: url("../images/pions/e4.png");
+	background-size: 100%;
+}
+.e5{
+	background-image: url("../images/pions/e5.png");
+	background-size: 100%;
+}
+.r1{
+	background-image: url("../images/pions/r1.png");
+	background-size: 100%;
+}
+.r2{
+	background-image: url("../images/pions/r2.png");
+	background-size: 100%;
+}
+.r3{
+	background-image: url("../images/pions/r3.png");
+	background-size: 100%;
+}
+.r4{
+	background-image: url("../images/pions/r4.png");
+	background-size: 100%;
+}
+.r5{
+	background-image: url("../images/pions/r5.png");
+	background-size: 100%;
+}
+.c1{
+	background-image: url("../images/pions/c1.png");
+	background-size: 100%;
+}
+.c2{
+	background-image: url("../images/pions/c2.png");
+	background-size: 100%;
+}
+.c3{
+	background-image: url("../images/pions/c3.png");
+	background-size: 100%;
+}
